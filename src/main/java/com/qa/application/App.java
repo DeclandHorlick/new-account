@@ -5,7 +5,7 @@ import com.qa.service.AccountService;
 import com.qa.util.JSONUtil;
 
 public class App {
-
+	//added a comment
 	public static void main(String[] args) {
 		AccountService service = new AccountService();
 		JSONUtil util = new JSONUtil();
@@ -15,7 +15,7 @@ public class App {
 		service.addAccountFromMap(janeBloggs);
 		String mapAsJSON = util.getJSONForObject(service.getAccountMap());
 		System.out.println("This is the account map as JSON " + mapAsJSON);
-
+//adding all these comments
 	}
 
 }
